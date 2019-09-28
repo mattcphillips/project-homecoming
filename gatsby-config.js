@@ -1,8 +1,38 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Project Homecoming`,
+    description: `Project Homecoming is committed to speeding the recovery of the 80,000 American soldiers still missing from World War II, Korea, the Cold War and Vietnam.`,
+    author: `Matt Phillips`,
+    menuLinks: [
+      {
+        name:'Home',
+        link:'/'
+      },
+      {
+        name:'Mission',
+        link:'/mission'
+      },
+      {
+        name:'Programs',
+        link:'/programs'
+      },
+      {
+        name:'Their Stories',
+        link:'/stories'
+      },
+      {
+        name:'Get Involved',
+        link:'/get-involved'
+      },
+      {
+        name:'About Us',
+        link:'/about'
+      },
+      {
+        name:'Contact',
+        link:'/contact'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +54,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
