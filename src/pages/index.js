@@ -11,7 +11,7 @@ const IndexPage = () => (
     <section>
     <p>Project Homecoming is committed to speeding the recovery of the 80,000 American soldiers still missing from World War II, Korea the Cold War and Vietnam.</p>
     <div style={{ maxWidth: `100%`, marginBottom: `1.45rem` }}>
-      <Image imageUrl={'102nd_morrow_1942.jpg'} />
+      <Image imageUrl={'102nd_morrow_1942.jpg'} maxWidth={900}/>
     </div>
 
     <p>
