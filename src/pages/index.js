@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout/layout'
-import Image from '../components/image'
+import HomeImage from '../components/images/home'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
@@ -11,7 +11,7 @@ const IndexPage = () => (
     <section>
     <p>Project Homecoming is committed to speeding the recovery of the 80,000 American soldiers still missing from World War II, Korea the Cold War and Vietnam.</p>
     <div style={{ maxWidth: `100%`, marginBottom: `1.45rem` }}>
-      <Image imageUrl={'102nd_morrow_1942.jpg'} maxWidth={900}/>
+      <HomeImage maxWidth={900}/>
     </div>
 
     <p>

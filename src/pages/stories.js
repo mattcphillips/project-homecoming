@@ -4,10 +4,18 @@ import Layout from '../components/layout/layout'
 import SEO from '../components/seo'
 import StoryTile from '../components/story-tile'
 
+import StoryOne from '../components/images/story-one'
+import StoryTwo from '../components/images/story-two'
+import StoryThree from '../components/images/story-three'
+import StoryFour from '../components/images/story-four'
+import StoryFive from '../components/images/story-five'
+
+import './stories.css'
+
 const MIA_STORIES = [
   {
     conflict: 'World War II',
-    imageName: 'TheodoreJThompson.jpg',
+    imageComponent: <StoryOne />,
     location: 'Delia, Sicily, Italy',
     name: 'Theodore J. Thompson',
     path: '',
@@ -15,7 +23,7 @@ const MIA_STORIES = [
   },
   {
     conflict: 'World War II',
-    imageName: 'NormanFWhittredge.jpg',
+    imageComponent: <StoryTwo />,
     location: 'Anami Oshima, Japan',
     name: 'Norman F. Whittredge',
     path: '',
@@ -23,7 +31,7 @@ const MIA_STORIES = [
   },
   {
     conflict: 'World War II',
-    imageName: 'plane_repatriation.jpg',
+    imageComponent: <StoryThree />,
     location: 'Cape Ward Hunt, Papua New Guinea',
     name: 'Joseph Thompson',
     path: '',
@@ -31,7 +39,7 @@ const MIA_STORIES = [
   },
   {
     conflict: 'World War II',
-    imageName: 'Wurtz_Gowen_flag.jpg',
+    imageComponent: <StoryFour />,
     location: 'Papua New Guinea',
     name: 'Harold F. Wurtz/Harriet E. Gowen',
     path: '',
@@ -39,7 +47,7 @@ const MIA_STORIES = [
   },
   {
     conflict: 'Korean War',
-    imageName: 'Charles_Garrison.gif',
+    imageComponent: <StoryFive />,
     location: 'Korea',
     name: 'Charles Garrison',
     path: '',
@@ -52,8 +60,12 @@ const StoriesPage = () => (
     <SEO title="Their Stories" />
     <h2>Their Stories</h2>
     <p>Read these stories about some of our heroes...</p>
-    <ul>
-      {MIA_STORIES.map(story => <StoryTile conflict={story.conflict} imageName={story.imageName} location={story.location} name={story.name} status={story.status} />)}
+    <ul className="stories-grid">
+    {MIA_STORIES.map(story => 
+      <StoryTile conflict={story.conflict} key={story.name} location={story.location} name={story.name} status={story.status}>
+        {story.imageComponent}
+      </StoryTile>
+    )}
     </ul>
   </Layout>
 )

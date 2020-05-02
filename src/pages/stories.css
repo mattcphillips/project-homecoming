@@ -1,0 +1,13 @@
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  margin: 0;
+}
+
+@media screen and (min-width: 530px) {
+  .stories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
