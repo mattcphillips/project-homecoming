@@ -1,5 +1,0 @@
-- [ ] Create routes for invidual story pages
-- [ ] Create invidual story pages
-- [ ] Add hover effects to story tiles
-- [ ] Add hover effects to nav items
-- [ ] Add Picture to About section
