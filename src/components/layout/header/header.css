@@ -1,0 +1,13 @@
+.link-item {
+  list-style-type: none;
+  margin-top: 8px;
+}
+
+.link {
+  color: white;
+  margin: 0 8px
+}
+
+.link:hover {
+  color: rgb(163, 153, 153);
+}

@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
 import './story-tile.css'
 
 const StoryTile = ({conflict, location, name, path, status, children}) => (
-  <a href={path} className="story-tile">
+  <Link to={path} className="story-tile">
     <h2>{name}</h2>
     <div className="content-wrapper">
       <div className="image-wrapper">
@@ -20,7 +21,7 @@ const StoryTile = ({conflict, location, name, path, status, children}) => (
         </div>
       </div>
     </div>
-  </a>
+  </Link>
 )
 
 StoryTile.propTypes = {
