@@ -15,7 +15,7 @@ const Header = ({ menuLinks }) => (
     >
       <BannerImage/>
     </div>
-      <nav style={{ color: 'white', display: 'flex', flex: 1, background: `#224E7A`, }}>
+      <nav className="nav">
       {
         menuLinks.map(link =>
           <li key={link.name} className="link-item">
