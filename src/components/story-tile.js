@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 import './story-tile.css'
 
-const StoryTile = ({conflict, location, name, status, children}) => (
-  <section className="story-tile">
+const StoryTile = ({conflict, location, name, path, status, children}) => (
+  <a href={path} className="story-tile">
     <h2>{name}</h2>
     <div className="content-wrapper">
       <div className="image-wrapper">
@@ -20,8 +20,7 @@ const StoryTile = ({conflict, location, name, status, children}) => (
         </div>
       </div>
     </div>
-    
-  </section>
+  </a>
 )
 
 StoryTile.propTypes = {
@@ -29,6 +28,7 @@ StoryTile.propTypes = {
   children: PropTypes.node.isRequired,
   location: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
   status: PropTypes.string.isRequired,
 }
 

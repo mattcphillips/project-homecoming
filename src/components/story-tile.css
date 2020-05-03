@@ -1,9 +1,16 @@
 .story-tile {
   background-color: beige;
   border-radius: 4px;
+  color: black;
   display: inline-block;
   padding: 16px;
+  text-decoration: none;
   width: 100%;
+}
+
+.story-tile:hover {
+  background-color:#CBAD00;
+  transition: background-color 200ms linear;
 }
 
 .content-wrapper {

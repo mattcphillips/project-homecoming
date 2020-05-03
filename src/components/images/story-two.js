@@ -26,7 +26,7 @@ const StoryTwo = () => (
         }
       }
     `}
-    render={data => <Img imgStyle={{objectFit: 'cover'}} style={{width: 100, height: 100}} fluid={data.placeholderImage.childImageSharp.fluid} objectFit="cover" objectPosition="50% 50%"/>}
+    render={data => <Img imgStyle={{objectFit: 'cover'}} style={{width: 100, height: 100}} fluid={data.placeholderImage.childImageSharp.fluid} /> } 
   />
 )
 export default StoryTwo

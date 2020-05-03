@@ -18,7 +18,7 @@ const MIA_STORIES = [
     imageComponent: <StoryOne />,
     location: 'Delia, Sicily, Italy',
     name: 'Theodore J. Thompson',
-    path: '',
+    path: '/stories/theodore-thompson',
     status: 'Located 2001, Not Yet Recovered',
   },
   {
@@ -26,7 +26,7 @@ const MIA_STORIES = [
     imageComponent: <StoryTwo />,
     location: 'Anami Oshima, Japan',
     name: 'Norman F. Whittredge',
-    path: '',
+    path: '/stories/norman-whittredge',
     status: 'Located 2003, Not Yet Recovered',
   },
   {
@@ -34,7 +34,7 @@ const MIA_STORIES = [
     imageComponent: <StoryThree />,
     location: 'Cape Ward Hunt, Papua New Guinea',
     name: 'Joseph Thompson',
-    path: '',
+    path: '/stories/joseph-thompson',
     status: 'Recovered 2004, Interred in Arlington August, 2008',
   },
   {
@@ -42,7 +42,7 @@ const MIA_STORIES = [
     imageComponent: <StoryFour />,
     location: 'Papua New Guinea',
     name: 'Harold F. Wurtz/Harriet E. Gowen',
-    path: '',
+    path: '/stories/harry-and-harriet',
     status: 'Returned to family 1999',
   },
   {
@@ -50,7 +50,7 @@ const MIA_STORIES = [
     imageComponent: <StoryFive />,
     location: 'Korea',
     name: 'Charles Garrison',
-    path: '',
+    path: '/stories/charles-garrison',
     status: 'Not Yet Recovered',
   }
 ];
@@ -62,7 +62,7 @@ const StoriesPage = () => (
     <p>Read these stories about some of our heroes...</p>
     <ul className="stories-grid">
     {MIA_STORIES.map(story => 
-      <StoryTile conflict={story.conflict} key={story.name} location={story.location} name={story.name} status={story.status}>
+      <StoryTile conflict={story.conflict} key={story.name} location={story.location} name={story.name} path={story.path} status={story.status}>
         {story.imageComponent}
       </StoryTile>
     )}
