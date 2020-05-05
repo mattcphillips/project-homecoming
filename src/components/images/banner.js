@@ -26,7 +26,7 @@ const BannerImage = () => (
         }
       }
     `}
-    render={data => <Img fixed={data.placeholderImage.childImageSharp.fixed} />}
+    render={data => <Img imgStyle={{objectFit: 'cover'}} fixed={data.placeholderImage.childImageSharp.fixed} />}
   />
 )
 export default BannerImage

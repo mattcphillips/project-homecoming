@@ -9,7 +9,7 @@ const ContactPage = () => (
     <section>
       <h4>Contact us via email at:</h4>
       <p>
-        <a href='mailto:info@projecthomecoming.org'>info@projecthomecoming.org</a>
+        <a href='mailto:projecthomecominginfo@gmail.com'>projecthomecominginfo@gmail.com</a>
       </p>
       <h4>or via mail at:</h4>
       <address>

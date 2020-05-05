@@ -30,7 +30,7 @@ const MissionPage = () => (
         <strong>World War II</strong>
       </p>
       <p>
-        The US Military stopped systematically looking for World War II dead in 1950; its current efforts are overseen by the Defense Prisoner of War/Missing Personnel Office, whose budget appears to be well under $2 Million per year for World War II site location. Three of 18 Recovery teams are dedicated to World War II, the Cold War and Iraq in total. My hope is that Project Homecoming can aid recoveries from World War II three ways:
+        The US Military stopped systematically looking for World War II dead in 1950; its current efforts are overseen by the Defense POW/MIA Accounting Agency, whose budget appears to be well under $2 Million per year for World War II site location. Three of 18 Recovery teams are dedicated to World War II, the Cold War and Iraq in total. My hope is that Project Homecoming can aid recoveries from World War II three ways:
       </p>
       <ul>
         <li>
@@ -48,14 +48,14 @@ const MissionPage = () => (
         <strong>Korea</strong>
       </p>
       <p>
-        Korean War missing are largely (85%) in North Korea. Access to the country depends on America’s overall relationship with North Korea. Since a significant percentage of those missing in North Korea are buried at battlefields the US has been unable to visit since the war it is likely that many missing could be recovered based on US records of their approximate burial locations. It appears roughly $2 Million per year is spent on Korea location research and 5 US Military teams are on call whenever entry to the North is allowed. There are currently in excess of 500 Korea remains that have been returned to the US but not identified, as well as hundreds more that have been buried as unknowns for whom further forensic research might yield identities. Given the closed nature of the North and the cooperation the South already provides, Project Homecoming can best support Korean activities by seeking full funding and staffing for archival and forensic research while supporting full funding for the Military’s location research efforts in Korea.
+      Korean War missing are largely (85%) in North Korea. Access to the country depends on America’s overall relationship with North Korea. Most of the Missing are buried at battlefields the US has been unable to visit since the war. There are hundreds of Korea remains that have been returned to the US labs but not identified, as well as hundreds more that have been buried as unknowns for whom further forensic research might yield identities.
       </p>
 
       <p>
         <strong>Southeast Asia/Vietnam</strong>
       </p>
       <p>
-        Tradition and regulation require that the most recent war be the most fully funded. It appears that roughly 60% of America’s remains location resources are applied in Southeast Asia and 10 of 18 available recovery teams are there, many full time. These efforts are already a priority in the Government and the Military. Project Homecomings role must be to try and assure that enhance efforts elsewhere don’t come at the expense of the Southeast Asia recoveries.
+        Tradition and regulation require that the most recent war be the most fully funded. Project Homecomings role must be to try and assure that enhance efforts elsewhere don’t come at the expense of the Southeast Asia recoveries.
       </p>
     </section>
   </Layout>

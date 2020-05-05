@@ -18,7 +18,7 @@ const ProgramsPage = () => (
         <strong>Education</strong> – The primary mission of Project Homecoming is to raise public awareness of the urgent need of recovery of MIA remains. Recoverable sites are disappearing due to extreme tropical weather, development and urban expansion.
       </p>
       <p>
-        <strong>Government Outreach</strong> – Project Homecoming understands a major component of increased recovery efforts is the need for increased funding for the Defense Prisoner of War/Missing Personnel Office (DPMO) and the Joint Prisoners of War/Missing in Action Accountability Command (JPAC), the governmental departments responsible for actual recovery and identification. We are committed to work for greater support from our elected officials to improve the recovery rate.
+        <strong>Government Outreach</strong> – Project Homecoming understands a major component of increased recovery efforts is the need for increased funding for the Defense POW/MIA Accounting Agency, the governmental Agency responsible for actual recovery and identification. We are committed to work for greater support from our elected officials to improve the recovery rate.
       </p>
     </section>
   </Layout>
