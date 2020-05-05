@@ -30,7 +30,7 @@ const MissionPage = () => (
         <strong>World War II</strong>
       </p>
       <p>
-        The US Military stopped systematically looking for World War II dead in 1950; its current efforts are overseen by the Defense POW/MIA Accounting Agency, whose budget appears to be well under $2 Million per year for World War II site location. Three of 18 Recovery teams are dedicated to World War II, the Cold War and Iraq in total. My hope is that Project Homecoming can aid recoveries from World War II three ways:
+        The US Military stopped systematically looking for World War II dead in 1950; its current efforts are overseen by the Defense POW/MIA Accounting Agency.  Project Homecoming can aid recoveries from World War II three ways:
       </p>
       <ul>
         <li>
